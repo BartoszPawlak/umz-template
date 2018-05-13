@@ -1,0 +1,69 @@
+lista najczęstszych słów dla ham:
+[('the', 12153),
+ ('to', 12015),
+ ('for', 10039),
+ ('and', 10013),
+ ('a', 9679),
+ ('of', 9361),
+ ('on', 9165),
+ ('you', 9142),
+ ('in', 8797),
+ ('is', 8778)]
+
+lista najczęstszych słów dla spam:
+[('to', 10877),
+ ('the', 10039),
+ ('and', 9875),
+ ('a', 9581),
+ ('you', 9533),
+ ('for', 8747),
+ ('of', 8699),
+ ('your', 8260),
+ ('is', 7928),
+ ('in', 7667)]
+
+zero rule:
+accuracy:        0.5032621589561092
+sensivity:       1.0
+specifity:       0.0
+precision:       0.5032621589561092
+f-measure:       0.6695600710199251
+
+Bayes
+accuracy:        0.8380782918149466
+sensivity:       0.6871345029239766
+specifity:       0.99338146811071
+precision:       0.9907251264755481
+f-measure:       0.81146408839779
+
+Bayes + stemmer lancester:
+accuracy:        0.8537959667852907
+sensivity:       0.7326901248581158
+specifity:       0.986335403726708
+precision:       0.9832444782939832
+f-measure:       0.8396747967479675
+
+
+Bayes + stemmer porter:
+accuracy:        0.8552787663107948
+sensivity:       0.7244186046511628
+specifity:       0.9915254237288136
+precision:       0.9888888888888889
+f-measure:       0.836241610738255
+
+Bayes + stemmer snowball:
+accuracy:        0.8377817319098458
+sensivity:       0.6959030582804385
+specifity:       0.987797437461867
+precision:       0.9836867862969005
+f-measure:       0.8151402500844879
+
+
+Bayes + laplac:
+alfa: 0.1
+beta: 0.5
+accuracy:        0.8606168446026097
+sensivity:       0.7372929754426042
+specifity:       0.9938309685379395
+precision:       0.9923136049192929
+f-measure:       0.8460026212319789
