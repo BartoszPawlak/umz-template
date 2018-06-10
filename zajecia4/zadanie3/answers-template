@@ -1,0 +1,16 @@
+YOUR OWN PARAMETERS:
+TRAIN SET- 3
+accuracy: 0.84
+
+TEST SET- 3
+accuracy: 0.68
+
+----------
+
+TRAIN SET- 5
+accuracy: 0.77
+
+TEST SET- 5
+accuracy: 0.5
+
+... ( to be completed with new parametrized models)
